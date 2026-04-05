@@ -15,8 +15,8 @@ app.get("/api/commute-report", (req, res) => {
 // Serve frontend build
 app.use(express.static(join(__dirname, "../dist")));
 
-// All other routes serve the frontend
-app.get("*", (req, res) => {
+// All other routes serve the frontend (Express 5 compatible)
+app.get("/{*splat}", (req, res) => {
   res.sendFile(join(__dirname, "../dist/index.html"));
 });
 
