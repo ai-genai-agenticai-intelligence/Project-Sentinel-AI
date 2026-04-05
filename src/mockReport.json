@@ -1,0 +1,47 @@
+{
+  "from": "Gachibowli",
+  "to": "Secunderabad",
+  "route_points": [
+    [17.4401, 78.3489],
+    [17.4300, 78.3900],
+    [17.4200, 78.4400],
+    [17.4300, 78.4700],
+    [17.4399, 78.4983]
+  ],
+  "traffic": {
+    "travel_time_min": 35,
+    "traffic_delay_min": 12,
+    "traffic_level": "High"
+  },
+  "environment_summary": {
+    "aqi_max": 4,
+    "aqi_label": "Poor",
+    "uv_max": 7.5,
+    "uv_label": "High",
+    "avg_temp": 32,
+    "avg_humidity": 65,
+    "is_raining": true
+  },
+  "flood_alert_active": true,
+  "flood_hotspots_detected": [
+    {
+      "name": "Madhapur Underpass",
+      "risk": "High",
+      "lat": 17.4483,
+      "lon": 78.3915,
+      "distance_km": 1.2
+    }
+  ],
+  "risk_breakdown": {
+    "total_score": 82,
+    "risk_label": "Danger"
+  },
+  "warnings": [
+    "Heavy traffic detected. Expect delays.",
+    "Air quality is unhealthy. Avoid long outdoor exposure, especially for children.",
+    "High UV exposure risk. Use sunscreen and avoid peak sunlight hours.",
+    "Rain detected. Roads may be slippery and visibility may reduce.",
+    "Flood-prone zones detected on your route. Avoid low-altitude roads and underpasses."
+  ],
+  "recommendation": "Avoid travel if possible or use safer alternative routes."
+}

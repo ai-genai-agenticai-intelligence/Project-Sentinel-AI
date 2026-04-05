@@ -1,0 +1,7 @@
+[
+  { "name": "Madhapur Underpass", "lat": 17.4483, "lon": 78.3915, "risk": "High" },
+  { "name": "Kukatpally Drain Zone", "lat": 17.4948, "lon": 78.3996, "risk": "Medium" },
+  { "name": "Begumpet Low Road", "lat": 17.4375, "lon": 78.4483, "risk": "High" },
+  { "name": "Mehdipatnam Underpass", "lat": 17.3956, "lon": 78.4409, "risk": "High" },
+  { "name": "Dilsukhnagar Junction", "lat": 17.3686, "lon": 78.5247, "risk": "Medium" }
+]
